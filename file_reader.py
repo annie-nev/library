@@ -19,7 +19,7 @@ class FileReader(ABC):
         if os.path.isfile(file_path):
             self.file_path = file_path
         else:
-            raise Exception("File path does not ")
+            raise Exception("File path does not exist")
 
     def size(self) -> int:
         """
