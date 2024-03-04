@@ -1,7 +1,7 @@
 import csv
 
 from file_reader import FileReader
-from utils.stringutils import slice_words
+from utils.string_utils import slice_words
 
 
 class CsvReader(FileReader):
