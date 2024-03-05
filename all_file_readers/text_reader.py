@@ -8,13 +8,13 @@ from file_reader import FileReader
 
 class TextReader(FileReader):
     """
-     Implements TextReader functions
+     Inherits from FileReader class
+     replaces read function to be compatible with txt file
     """
     def read(self):
         """
-        reads text files
-        :return: text file content
+        prints text file content
         """
         file_content = open(self.file_path, "r")
-        return file_content.read()
+        print(file_content.read())
 
