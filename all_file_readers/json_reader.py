@@ -9,7 +9,8 @@ from file_reader import FileReader
 
 class JsonReader(FileReader):
     """
-     Implements JsonReader functions
+     Inherits from FileReader abstract class
+     and replaces read function
     """
 
     def read(self):
