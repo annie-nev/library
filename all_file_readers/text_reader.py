@@ -18,3 +18,4 @@ class TextReader(FileReader):
         file_content = open(self.file_path, "r")
         return file_content.read()
 
+    # TODO: change the return into print in bugfix
