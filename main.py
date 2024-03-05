@@ -1,4 +1,3 @@
-from all_file_readers.csv_reader import CsvReader
 from all_file_readers.json_reader import JsonReader
 
 
