@@ -1,9 +1,9 @@
-from all_file_readers.csv_reader import CsvReader
+from dir_walk import dir_walk
 
 
 def main():
-    the_reader = CsvReader(r"C:\Users\USER\Documents\random_csv_file.csv")
-    CsvReader.read(the_reader)
+    dir_path = r"C:\Users\USER\Documents\random_dir"
+    print(dir_walk(dir_path))
 
 
 if __name__ == '__main__':
