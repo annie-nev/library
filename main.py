@@ -1,9 +1,9 @@
-from all_file_readers.csv_reader import CsvReader
+from all_file_readers.text_reader import TextReader
 
 
 def main():
-    the_reader = CsvReader(r"C:\Users\USER\Documents\random_csv_file.csv")
-    CsvReader.read(the_reader)
+    the_reader = TextReader(r"C:\Users\USER\Documents\random_csv_file.csv")
+    TextReader.read(the_reader)
 
 
 if __name__ == '__main__':

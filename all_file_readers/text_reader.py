@@ -1,7 +1,7 @@
 """
-    Purpose: Implements TextReader class
-    Author: Annie_nev
-    Created:3.3.2024
+Purpose: Implements TextReader class
+Author: Annie_nev
+Created:3.3.2024
 """
 from file_reader import FileReader
 
