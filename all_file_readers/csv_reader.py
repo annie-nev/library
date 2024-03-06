@@ -41,5 +41,3 @@ class CsvReader(FileReader):
             final_word_format.append(final_str)
         return "".join(final_word_format)
 
-
-
