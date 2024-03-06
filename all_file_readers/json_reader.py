@@ -1,7 +1,7 @@
 """
-    Purpose: Implements JsonReader class
-    Author: Annie_nev
-    Created:5.3.2024
+Purpose: Implements JsonReader class
+Author: Annie_nev
+Created:5.3.2024
 """
 import json
 from file_reader import FileReader
